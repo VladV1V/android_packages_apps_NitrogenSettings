@@ -79,6 +79,13 @@
         <Preference
             android:summary="@string/fod_pressed_state_footer" />
 
+        <!-- Screen off FOD -->
+        <SwitchPreference
+            android:key="screen_off_fod"
+            android:title="@string/scr_off_fod"
+            android:summary="@string/scr_off_fod_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
